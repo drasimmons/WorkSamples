@@ -8,6 +8,9 @@
 # read and format course history txt files 
 # all files have identical formatting
 
+library(stringr)
+
+
 # function to read in txt file from local hard drive and complete light formatting
 
 read_chtxt <- function(txtfile_loc, term_code){
